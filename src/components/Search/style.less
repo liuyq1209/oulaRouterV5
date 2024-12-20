@@ -1,0 +1,22 @@
+.searchForm {
+  display: flex;
+  padding: 14px 18px;
+
+  & > form {
+    flex: 1 0 0;
+  }
+
+  & > div {
+    flex: 0 0;
+  }
+
+  :global {
+    .@{spriteui-prefix}-form-item {
+      margin-bottom: 12px;
+    }
+
+    .@{spriteui-prefix}-form-item-control-input {
+      min-width: 140px;
+    }
+  }
+}
